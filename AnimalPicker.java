@@ -15,9 +15,9 @@ public class AnimalPicker {
             choice = scan.nextLine().toLowerCase();
     
             if (choice.equals("dog")) {
-                System.out.println("DOG ASCII ART HERE");
+                System.out.println("    ___\n __/_  `.  .-\"\"\"-.\n \\_,` | \\-\'  /   )`-\')\n  \"\") `\"`    \\  ((`\"`\n ___Y  ,    .\'7 /|\n(_,___/...-` (_/_/ ");
             } else if (choice.equals("cat")) {
-                System.out.println("CAT ASCII ART HERE");
+                System.out.println("      |\\      _,,,---,,_\nZZZzz /,`.-\'`\'    -.  ;-;;,_\n     |,4-  ) )-,_. ,\\ (  `\'-\'\n    \'---\'\'(_/--\'  `-\'\\_) ");
             } else {
                 System.out.println("Error: Invalid selection - Please select either dog or cat");
             }
